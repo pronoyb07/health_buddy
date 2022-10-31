@@ -258,8 +258,8 @@
     <div id="navbar-container">
       <div id="navbar-items">
         <ul>
-          <li><a href="./index.html"> Home</a></li>
-          <li><a href="./about.html"> About Us</a></li>
+          <li><a href="./index.ejs"> Home</a></li>
+          <li><a href="./about.ejs"> About Us</a></li>
         </ul>
       </div>
     </div>
@@ -268,14 +268,14 @@
         <img src="./Images/background.jpg" alt="Background Image" />
       </div>
       <div id="container">
-        <div id="container-details">
+        <!-- <div id="container-details">
           <p></p>
           <h6 id="data"></h6>
-        </div>
+        </div> -->
         <div id="container-2">
-          <div id="container-upload">
-            <div class="upload-box">
-              <!-- <svg
+          <!-- <div id="container-upload"> -->
+          <div class="upload-box">
+            <!-- <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="pdf"
                 fill="none"
@@ -289,24 +289,24 @@
                   d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 ></path>
               </svg> -->
-              <main>
-                <form
-                  method="post"
-                  enctype="multipart/form-data"
-                  action="/upload"
-                >
-                  <input type="file" name="image" accept="image/*" />
-                  <input type="submit" value="Submit" />
-                </form>
-              </main>
-              <!-- <label class="fileInput-label" for="file-input">
+            <main>
+              <form
+                method="post"
+                enctype="multipart/form-data"
+                action="/upload"
+              >
+                <input type="file" name="image" accept="image/*" />
+                <input type="submit" value="Submit" />
+              </form>
+            </main>
+            <!-- <label class="fileInput-label" for="file-input">
                 <input type="file" id="file-input" />
 
                 <span>Upload Scanned Image</span>
                 
               </label> -->
-            </div>
           </div>
+          <!-- </div> -->
         </div>
       </div>
     </div>
