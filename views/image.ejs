@@ -61,7 +61,7 @@
                 </tr>
               </thead>
 
-              <% for(var j=0; j<1; j++) { %>
+              <% for(var j=0; j<(image.data[i].data.length==0?0:1); j++) { %>
                 <tr>
                   <td class="w-4/12 py-4 px-6  text-sm font-medium text-stone-200 whitespace-nowrap ">
                     <%= image.data[i].data[j].food.label.split(",")[0] %>
