@@ -335,5 +335,13 @@
       </div> -->
       <!-- Copyright -->
     </footer>
+    <script>
+      const email = localStorage.getItem("email");
+      const password = localStorage.getItem("password");
+
+      if (!email || !password) {
+        window.location.replace(`https://${window.location.hostname}/login`);
+      }
+    </script>
   </body>
 </html>
