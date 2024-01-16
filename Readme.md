@@ -4,6 +4,4 @@
 - It uses edamam API.
 
 
-<h1>Demo:</h1>
-https://github.com/pronoyb07/health_buddy/assets/63471986/be69ec12-0239-46c8-a26c-e4ec2c266f41
-
+<h5>You can find the demo here[here](https://www.loom.com/share/feef29313c124185b2b60258f3bff44c?sid=ebee98cf-f767-496e-ae68-9b66c4a42a5a)</h5>
