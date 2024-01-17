@@ -10,8 +10,8 @@ You can find the demo [here](https://www.loom.com/share/feef29313c124185b2b60258
 # Step by step guide on using Health Buddy
 
 Step 1: Create an account over [here](https://test3-9hut.onrender.com/register).
-![Alt text](1-1.PNG)
+![Alt text](./images/1-1.PNG)
 Step 2: Login yourself over [here](https://test3-9hut.onrender.com/login).
-![Alt text](1-2.PNG)
+![Alt text](./images/1-2.PNG)
 Step 3: Select any image from [Ingredient_Image_DB](https://github.com/pronoyb07/health_buddy/tree/main/Ingredient_Image_DB) and click on sumbit.
-![Alt text](1.PNG)
+![Alt text](./images/1.PNG)
